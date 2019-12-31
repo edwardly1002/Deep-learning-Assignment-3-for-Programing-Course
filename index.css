@@ -1,0 +1,159 @@
+body {
+	background-color: #FEFEFE;
+}
+
+#nav-bar {
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+	background-size: contain;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+	#nav-bar ul li a {
+		color: #005BBE;
+	}
+
+#banner-head {
+	margin-top: 100px;
+}
+
+	#banner-head #subject {
+		padding: 20px 10px 20px 0px; 
+		font-size:21px; 
+		background-image: linear-gradient(to right, #271066, #271066, #382177, #493288);
+	}
+
+		#subject__syms {
+			padding: 2px 0px 2px 18px;
+		}
+
+			#subject__syms img {
+				height: 400px;
+				float: left;
+			}
+
+		#subject__cmt {
+			border: #;
+			padding: 70px 20px 0px 0px;
+			color: #EDEDED;
+			text-align: justify; 
+		}
+
+			#subject__cmt p {
+				font-size: 21px;
+				font-weight: 500;
+			}
+
+#banner-foot {
+	margin: 50px 0px;
+}
+	
+	#banner-foot #subject {
+		padding: 30px 25px 30px 0px; 
+		background-image: linear-gradient(to right, #00AFAF, #00AFAF, #00AFAF, #00D8D8, #00D8D8);
+	}
+		#banner-foot .col {
+		}
+
+		#banner-foot .col-5 {
+			padding-top: 70px;
+		}
+
+		#banner-foot p {
+			font-size: 22px;
+			font-weight: 500;
+			font-style: italic;
+		}
+
+		#banner-foot img {
+			height: 250px;
+		}
+
+#main-container {
+	padding: 0px 100px;
+}
+
+	#title {
+		margin-top: 0px; 
+		margin-bottom: 80px;
+	}
+
+
+
+#index-container {
+	margin-top: 50px;
+}
+
+	#index-container div div {
+		background-position: 280px 210px; 
+		height:250px; 
+		width:250px; 
+		padding: 110px 0px;
+		color: white;
+		font-size: 20px;
+	}
+
+/*	#index__sym1 {
+		background-color: #F01212;
+	}
+	
+	#index__sym2 {
+		background-color: #12F034;
+	}
+
+	#index__sym3 {
+		background-color: #4F12F0;
+	}	*/
+
+	#index-container .rounded-circle {
+		background-color: #0053B8;
+	}
+
+	#index-container div div:hover {
+		opacity: 0.8;
+	}
+
+
+
+#history {
+	text-align: justify;
+	padding: 50px 80px;
+}
+
+	#history p {
+		
+	}
+
+
+#team-member {
+	margin-top: 50px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+#platform-used {
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+#references {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+#copyright {
+	margin: 50px auto 10px 10px;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+hr {
+	margin: 50px 0px;
+}
