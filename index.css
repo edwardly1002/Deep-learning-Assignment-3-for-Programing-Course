@@ -75,13 +75,14 @@ body {
 
 	#title {
 		margin-top: 0px; 
-		margin-bottom: 80px;
+		margin-bottom: 50px;
 	}
 
 
 
 #index-container {
-	margin-top: 50px;
+	margin-top: 100px;
+	margin-bottom: 80px;
 }
 
 	#index-container div div {
@@ -117,19 +118,152 @@ body {
 
 #history {
 	text-align: justify;
-	padding: 50px 80px;
+	margin: 50px 8% 0px 8%;
+	padding-top: 50px;
+	border-top: 1px solid #CCCCCC;
 }
 
 	#history p {
-		
+		font-size:20px;
 	}
 
 
+#achieve {
+    list-style: none;
+    text-align: center;
+}	
+	
+	.achieve-items {
+		padding: 0 8%;
+	}
+
+	.achieve-items p {
+		font-size: 20px; 
+		margin-left: 35px;
+		text-align: justify;
+	}
+	
+	.achieve-items li {
+		font-size: 20px;
+	}
+
+	#achieve li {
+	    width:90%;
+    	margin: 10px auto;
+    	border: 1px solid #BBBBBB;
+    	border-radius: 10px;
+    	padding: 6px;
+
+    	color: #005BBE;
+    	font-weight: 500;
+	}
+
+	#achieve li:hover {
+		background-color: #005BBE;
+		color: #FFFFFF;
+		border:none;
+	}
+	
+	#achieve li:hover a {
+		color: #FFFFFF;
+	}
+
+	#achieve a {
+	    font-size: 22px; 
+	    text-decoration: none;
+	}
+	
+#architect {
+    text-align: center;
+    color: #000000;
+}
+	
+	#architect .col-5 {
+	}
+
+    #architect ul {
+        list-style:none;
+        font-size: 25px;
+    }
+    
+	    #architect ul li {
+	    	width: 90%;
+	    	margin: 10px auto;
+	    	border: 1px solid #BBBBBB;
+	    	border-radius: 10px;
+	    	padding: 6px;
+
+	    	color: #005BBE;
+	    }
+
+	    #architect ul li:hover {
+			background-color: #005BBE;
+			border:none;
+		}
+
+		#architect ul li:hover a {
+			color: #FFFFFF;
+		}
+
+	    #architect a{
+	    	font-size: 22px;
+	    	font-weight: 500;
+	       text-decoration: none;
+	    }
+	    
+
+    .archi-items {
+        padding: 0% 8%;
+    }
+    
+        .archi-items p {
+            font-size: 20px;
+            text-align:justify;
+        }
+        
+        .archi-items p.indent {
+            margin-left: 40px;
+        }
+    
+.achieve-items button, .archi-items button {
+	margin: 30px 8%;
+	float: right;
+}
+
 #team-member {
 	margin-top: 50px;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 	text-align: center;
 }
+
+#member-wrap {
+	margin: auto;
+	padding: 0px;
+}
+
+	#thanks {
+		margin-bottom: 30px;
+		text-align: justify;
+	}
+
+	.card {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin: 1.6%;
+	}
+
+	.card-body {
+		padding: 5px 0px;
+	}
+
+	.card-footer {
+		padding-left: 10px;
+		padding-right: 10px;	
+	}
+
+	.card-footer p {
+		margin-bottom: 5px; 
+	}
 
 #platform-used {
 	margin-top: 0px;
@@ -154,6 +288,16 @@ a:hover {
 	text-decoration: none;
 }
 
+.btn-item {
+	text-align: right;
+	margin-right: 7%;
+	font-size: 18px;
+}
+
 hr {
 	margin: 50px 0px;
+}
+
+.card {
+	width: 10px;
 }

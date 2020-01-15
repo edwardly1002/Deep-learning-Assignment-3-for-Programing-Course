@@ -16,6 +16,7 @@
 		<br> 
 
 	<?php } ?>
+	<p>From <a href="https://www.dataversity.net/brief-history-deep-learning">A Brief History of Deep Learning</a>.</p>
 	</div>
 
 	
